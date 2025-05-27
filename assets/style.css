@@ -3,3 +3,27 @@
     margin: 0;
     
 }
+
+header.top{
+    display: flex;
+    min-width: 100%;
+    max-width: 1440px;
+    height: 3.5rem;
+    justify-content: space-between;
+    border: 1px solid red;
+
+
+}
+
+.top-initial-1{
+    max-width: 144px;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    
+}
+
+.top-initial-1 img{
+    width: 24px;
+    height: 24px;
+}
