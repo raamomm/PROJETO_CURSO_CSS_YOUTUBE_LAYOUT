@@ -77,10 +77,22 @@ header.top{
 
 .top-initial-4{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.125rem;
+    padding: 10px 0px;
 }
 
 .top-initial-4 img{
-    width: 2rem;
-    height: 2rem;
-    padding: 10px;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1.875rem;
+    
+}
+
+#picture-profile img#profile{
+    width: 2.125rem;
+    height: 2.125rem;
+    border-radius: 50%;
+
 }
