@@ -7,9 +7,10 @@
 header.top{
     display: flex;
     min-width: 100%;
-    max-width: 1440px;
+    width: 1440px;
     height: 3.5rem;
     justify-content: space-between;
+    border: 1px solid red;
 
 }
 
@@ -32,4 +33,39 @@ header.top{
     height: auto;
     padding-top: 13px;
     margin-left: -1rem;
+}
+
+.top-initial-3{
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+
+.top-initial-3 input{
+    width: 21.75rem;
+    height: 2rem; 
+    border: 1px solid rgba(204, 204, 204, 1);
+    
+}
+
+
+
+.top-initial-3 img{
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(204, 204, 204, 1);
+
+}
+
+.top-initial-4{
+    display: flex;
+}
+
+.top-initial-4 img{
+    width: 2rem;
+    height: 2rem;
+    padding: 10px;
 }
