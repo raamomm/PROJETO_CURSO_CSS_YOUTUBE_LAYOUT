@@ -24,13 +24,13 @@ header.top{
 .top-initial-1 img{
     width: 24px;
     height: 24px;
-    padding: 10px 18px 0 24px;
+    padding: 1.25rem 10px 0 24px;
 }
 
 .top-initial-2 img{
     width: 5.625rem;
     height: auto;
-    padding-top: 13px;
+    padding-top: 1.25rem;
     margin-left: -1rem;
 }
 
