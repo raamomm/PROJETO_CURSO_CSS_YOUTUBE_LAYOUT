@@ -117,7 +117,6 @@ main.container{
     max-height: 937px;
     margin-left: 5rem;
     gap: 1rem;
-    border: 1px solid red;
 }
 
 main.container iframe{
@@ -144,23 +143,41 @@ main.container h1{
 
 .picture-channel{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    width: 12.5rem;
-    height: 3rem;
+    width: 100%;
+    max-width: 1300px;
+    /*width: 12.5rem;*/
+    height: 4rem;
     font-family: "Roboto", sans-serif;
     border: 1px solid red;
+
 }
 
 .picture-channel #profile-channel{
+    margin-top: 0.125rem;
     border-radius:50%;
+    
 }
 
-.picture-channel h3{
-    font-family: "Roboto", sans-serif;
-    flex-wrap: nowrap;
-    font-size: 0.875rem;
+#profile-name{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 0.625rem;
+    padding-left: 0.625rem;
     line-height: 1.5;
     letter-spacing: 0;
-    padding: 5px;
+    
+}
+
+#subscribes{
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding-top: 0.625rem;
+    padding-left: 0.625rem;
+    color: #515151;
+    
+    
 }
