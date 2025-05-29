@@ -146,8 +146,8 @@ main.container h1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    width: 200px;
+    width: 12.5rem;
+    height: 3rem;
     font-family: "Roboto", sans-serif;
     border: 1px solid red;
 }
@@ -163,13 +163,4 @@ main.container h1{
     line-height: 1.5;
     letter-spacing: 0;
     padding: 5px;
-}
-
-section.picture-channel p{
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.5;
-    letter-spacing: 0;
-    color: #515151;
-
 }
