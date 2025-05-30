@@ -144,12 +144,11 @@ main.container h1{
 .picture-channel{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 100%;
-    max-width: 1300px;
-    /*width: 12.5rem;*/
+    width: 12.5rem;
     height: 4rem;
     font-family: "Roboto", sans-serif;
-    border: 1px solid red;
 
 }
 
@@ -172,7 +171,7 @@ main.container h1{
     
 }
 
-#subscribes{
+#subscribes-numbers{
     font-size: 0.875rem;
     font-weight: 400;
     padding-top: 0.625rem;
@@ -181,3 +180,35 @@ main.container h1{
     
     
 }
+
+.buttons-subscribe img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5px;
+    margin-left: 2.5rem;
+}
+
+
+
+.thumbs-up{
+    padding: 15px;
+
+}
+
+.thumbs-up img{
+    
+    display: flex;
+    margin-left: 2.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+
+#numbers-likes{
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 1.25rem;
+}
+
