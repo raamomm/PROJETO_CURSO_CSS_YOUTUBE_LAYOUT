@@ -127,7 +127,7 @@ main.container iframe{
     align-content: center;
     align-items: center;
     width: 100vw;
-    max-width: 1300px;
+    max-width: 1440px;
     height: 100vh;
     max-height: 600px;
     padding-top: 1.87rem;
@@ -279,18 +279,24 @@ main.container h1{
 }
 
 .sugestions-videos{
-    width: 300px;
+    width: 22.875rem;
     height: 100vh;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     position: fixed;
-    top: 82px;
-    right: 300px;
+    top: 5.3125rem;
+    right: 12rem;
 }
 
 
-aside div{
-width: 366px;
-height: 90px;
+.sugestions-videos div{
+width: 22.875rem;
+height: 5.625rem;
 border: 1px solid red;
-
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
