@@ -277,3 +277,20 @@ main.container h1{
     line-height: 1.5;
     letter-spacing: 0;
 }
+
+.sugestions-videos{
+    width: 300px;
+    height: 100vh;
+    border: 1px solid red;
+    position: fixed;
+    top: 82px;
+    right: 300px;
+}
+
+
+aside div{
+width: 366px;
+height: 90px;
+border: 1px solid red;
+
+}
